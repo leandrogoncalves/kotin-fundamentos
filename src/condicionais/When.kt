@@ -42,4 +42,21 @@ fun main() {
 
     println(name)
 
+    val x = 10
+
+    when (x) {
+        in 1..10 -> println("x está entre 1 e 10")
+        in 11..20 -> println("x está entre 11 e 20")
+        else -> println("x não está entre 1 e 20")
+    }
+
+    val s = 'A'
+
+    val v = when (s) {
+        'A', 'a' -> 1
+        'E', 'e' -> 2
+        else -> 3
+    }
+
+    println(v)
 }

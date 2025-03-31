@@ -17,5 +17,7 @@ fun main() {
 
     println(b == a)
 
+    println(b != a)
+
     println(b === c)
 }
