@@ -14,5 +14,5 @@ fun main() {
     println()
     l4.forEach {println(it)}
 
-
+    var lista: List<Int?>? = null
 }
